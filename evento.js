@@ -1,7 +1,11 @@
-const dividiv = document.getElementById('eldiv');
+const dividiv = document.getElementById('eldiv')
+
+function saludar(){
+    event.stopPropagation();
+    alert('Hola!');
+}
 
 dividiv.addEventListener('click', function(e){
-
-return alert('Hola! Soy el div');
+alert('Hola! Soy el div');
 
 })
